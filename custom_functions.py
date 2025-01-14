@@ -75,8 +75,8 @@ def create_assistant(client):
             {
                 "type": "function",  # Adds the lead capture as a tool
                 "function": {
-                    "name": "create_kfz_insurance_lead",
-                    "description": "Capture KFZ insurance lead details and save to Airtable.",
+                    "name": "create_lead",
+                    "description": "Capture KFZ insurance lead details by question and save to Airtable.",
                     "parameters": {
                         "type": "object",
                         "properties": {
